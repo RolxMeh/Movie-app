@@ -42,7 +42,7 @@ function Banner() {
           <button className="button">Play</button>
           <button className="button">My List</button>
         </div>
-        <h2 className="w-[45rem] h-20 max-w-sm pt-4 text-sm">
+        <h2 className="w-4/5 md:w-[45rem] h-20 max-w-sm pt-4 text-sm">
           {truncate(movie?.overview, 150)}
         </h2>
       </div>
